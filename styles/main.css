@@ -1,0 +1,505 @@
+body{
+    height: 70%;
+}
+/* ПЕРВЫЙ БЛОК */
+.main_1block{
+    margin-top: 210px;
+    margin-right: 155px;
+    margin-left: 155px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main_sub1block{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin-right: 64px;
+    
+
+}
+
+.main_1block:last-child{
+    margin-right: 20px;
+}
+
+
+.main_title{
+    font-family:medium;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: start;
+}
+
+.main_subtitle{
+    font-family:extralight;
+    font-size: 18px;
+    color: #0F0F0F;
+    margin-top: 0;
+
+}
+
+.svg{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+/* ВТОРОЙ БЛОК */
+
+
+.main_2block
+{
+   
+    margin-bottom: 100px;
+    margin-top: 200px;
+    margin-left: 155px;
+    margin-right: 155px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main_sub2block,
+.main_sub3block{
+    width: 493px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 93px;
+    
+}
+
+.main_2title,
+.main_3title{
+    font-family:bold;
+    font-size: 25px;
+    text-align: start;
+    width: 493px;
+    margin-bottom: 0  ;
+    margin-top: 133px;
+    font-size: 38px;
+}
+
+.main_2subtitle,
+.main_3subtitle{
+    
+    font-size: 18px;
+    font-family: extralight;
+   
+    
+}
+
+/* ТРЕТИЙ БЛОК */
+
+.main_sub3block{
+
+    margin-right: 170px;
+
+}
+
+/* асайд */
+
+
+
+
+.main_aside{
+    height: 424px;
+    width: 100%;
+    background: #017CFF;
+
+}
+
+.aside_block{
+    
+    margin-top: 20px;
+    margin-right: 75px;
+    margin-left: 105px;
+   
+
+    
+    
+
+}
+.aside_1h1{
+    display: flex;
+   color: white;
+   justify-self: center;
+   font-size: 48px;
+   font-family: bold;
+   margin-bottom: 35px;
+   
+}
+
+.aside_2block{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+
+.aside_letters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 64px;
+    font-family:medium;
+    margin-bottom:  70px;
+    
+    
+}
+.aside_letters h1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+    
+}
+.aside_letters h5{
+    font-size: 27px;
+    font-family: light;
+    margin-top: 0;
+    
+    margin-bottom: 35px;
+
+
+}
+
+/* ДОДЕЛАТЬ ОТСТУП СНИЗУ  */
+
+
+/* четвертый блок */
+
+.main_4block{
+    margin-top: 150px;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+.main_4title{
+    font-family: bold;
+    align-self: center;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    font-size: 38px;
+    
+
+}
+
+.main_sub4block,
+.main_sub4block2{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.supsubblock4,
+.supsubblock42{
+    margin-left: 45px;
+    width: 243px;
+}
+
+.supsubblock42{
+    margin-top: 65px;
+}
+
+/* 5 блок */
+
+.main_back{
+    background: #194677;
+    height: 553px;
+    width: 100%;
+    margin-top: 115px;
+}
+
+
+.main_sub5block{
+    display: flex;
+    flex-direction: column;
+    color:#FFFFFF;
+    margin-right: 395px ;
+    margin-left: 395px;
+    align-items: center;
+    
+    
+   
+}
+.svg2{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+}
+.svg1{
+    height: 50px;
+    width: 50px;
+    margin-top: 95px;
+
+    
+}
+
+.main_5span1{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: light;
+    font-style: italic;
+    text-align: center;
+}
+
+.main_5span2{
+    color:#e48d8b;
+   
+   
+    
+}
+
+.main_5span3{
+    font-size: 17px;
+    font-family: medium;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* 6 блок */
+
+.main_6block{
+    height: 1030px;
+    width: 100%;
+    background: #E48D8B;
+    margin-top: 0;
+}
+
+.main_6divblock{
+    margin-right: 120px;
+    margin-left: 120px;
+    justify-content: center;
+
+}
+
+.main_6h1{
+    color: #FFFFFF;
+    font-size: 38px;
+    margin-top: 0px;
+    position: relative;
+    left: 570px;
+    top: 70px;
+    margin-bottom: 120px;
+   
+
+    
+}
+
+.buttons_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.buttons_subdiv1{
+    background: #FFFFFF;
+    display: flex;
+    height: 572px;
+    width: 430px;
+    flex-direction: column;
+
+}
+
+.buttons_subdiv2{
+    background: #FFFFFF;
+    display: flex;
+    height: 677px;
+    width: 430px;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.svg_buttons{
+    width: 30px;
+    height: 30px;
+}
+
+.inbutton_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43px;
+}
+
+
+.buttons_title{
+    font-size: 38px;
+    font-family: medium;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+.d321{
+    margin-top: 30px;
+    color: #464646;
+    font-family: medium;
+}
+
+.costs {
+    color: #017CFF;
+    font-size: 31px;
+    margin-top: 15px;
+    font-family: medium;
+}
+
+.costs> span:last-child{
+    color: #757575;
+    font-size: 22px;
+   
+    
+}
+.buttons_button{
+    border: 1px solid #017CFF;
+    color: white;
+    background-color: #017CFF;
+    padding: 12px 42px;
+    font-size: 23px;
+   
+}
+.more_6block{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    position: relative;
+    right: 45px;
+    top: 50px;
+    margin-top: 30px;
+}
+
+.block_6p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #464646;
+    font-family: light;
+
+    
+    
+}
+
+.block_6p::before{
+    content: '✔️';
+
+}
+
+.block_6title{
+
+    align-self: center;
+}
+
+/* СЕДЬМОЙ БЛОК */
+
+
+.main_7block{
+    background: white;
+    display: flex;
+    width: 100%;
+    
+
+
+}
+
+.main_7divblock{
+    margin:96px 105px;
+    
+
+
+}
+
+.main_7divblock h1{
+    font-size: 38px;
+    font-family: bold;
+    margin-left: 600px;
+
+}
+
+.divflex{
+    display: flex;
+    margin-left: 100px;
+   
+}
+
+.flexcolumn1,
+.flexcolumn2,
+.flexcolumn3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexcolumn2{
+    margin-left: 30px;
+}
+.flexcolumn3{
+    margin-left: 30px;
+    
+}
+
+.back1div,
+.back2div,
+.back3div,
+.back4div,
+.back5div,
+.back6div{
+    background: #EDEDED;
+    width: 355px;
+}
+.back1div{
+    padding: 20px 32px;
+}
+.back2div{
+    margin-top: 30px;
+    padding: 18px 32px;
+}
+
+.back3div{
+    padding: 16px 32px;
+}
+.back4div{
+    margin-top: 32px;
+    padding: 25px 32px;
+}
+
+.back5div{
+    padding: 18px 32px;
+
+
+}
+.back6div{
+    padding: 18px 32px;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+ .stars{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.star{
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+.people_name{
+    display: flex;
+}
+
+.people_name > div{
+    color: #0F0F0F;
+    
+    align-content: center;
+    margin-left: 10px;
+   
+}  
+
